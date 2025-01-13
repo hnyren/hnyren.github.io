@@ -52,17 +52,18 @@
  
 
 /* Project page */
-.projects {
+.project {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;  
+    margin-top: -5px;
 }
 
-.project {
+/* .project {
     padding: 5px;
     margin: 10px 1.5%;
-    /* width: 17%; */
-}
+    width: 40%;
+} */
 
 .project img {
     width: 100%;
