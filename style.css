@@ -52,18 +52,32 @@
  
 
 /* Project page */
-.projects img {
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;  
+}
+
+.project {
+    padding: 5px;
+    margin: 10px 1.5%;
+    /* width: 17%; */
+}
+
+.project img {
+    width: 100%;
+}
+
+.project p {
     margin: 0 10% ;
-    width: 80%;
-    max-height: 500 px;
-  }
+}
 
 .image {
     opacity: 1;    
 }
 
 .image:hover {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 /* Contact page */
