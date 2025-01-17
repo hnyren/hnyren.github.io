@@ -3,10 +3,10 @@
     margin: 0px;
     padding: 0px;
     font-family: Verdana, Tahoma, sans-serif;
+    background-color: #E0EEC6;
  }
 
 .main {
-  background-color: #E0EEC6;
   padding: 20px;
 }
 
@@ -144,4 +144,10 @@ h1 {
 
 .contact-box a:hover {
   opacity: 1;  
+}
+
+/* Footer */
+footer {
+  background-color: #4E7544;
+  color: #E0EEC6;
 }
