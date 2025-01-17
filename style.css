@@ -8,6 +8,7 @@
  main {
   background-color: #ffffff;
   padding: 20px;
+  margin: 20px;
 }
 
 
@@ -72,9 +73,14 @@ h1 {
 }
 
 .project {
+    display: block;
+    text-align: center;
+    color: #2B4025; 
+    text-decoration: none;
+    padding: 10px;
+    transition: opacity 0.3s ease;
     flex: 1 1 calc(33.333% - 20px);
     max-width: calc(33.333% - 20px);
-    text-align: center;
 }
 
 .project .image {
@@ -91,6 +97,10 @@ h1 {
     vertical-align: middle;
 }
 
+.projct :hover {
+  opacity: 0.8;
+}
+
 @media (max-width: 800px) {
     .project {
         flex: 1 1 calc(50% - 20px);
@@ -105,21 +115,21 @@ h1 {
     }
 }
 
-.image {
+/* .image {
     display: inline-block;
     transition: opacity 0.3s ease;
-}
+} */
 
-.image:hover {
+/* .image:hover {
     opacity: 0.8;
-}
+} */
 
-.image p{
+/* .image p{
   font-size: 1rem;
   line-height: 1.5;
   color: #2B4025; 
   text-decoration: none;
-}
+} */
 
 /* .image p {
   opacity: 0.8
@@ -129,6 +139,8 @@ h1 {
 .image p:hover {
   opacity: 1;
 } */
+
+
 /* Contact page */
 
 .contact {
