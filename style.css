@@ -31,6 +31,7 @@ h1 {
  }
  
  li a {
+  background-color: #4E7544;
    text-decoration: none;
    color: #E0EEC6;
    padding: 10px;
@@ -150,4 +151,5 @@ h1 {
 footer {
   background-color: #4E7544;
   color: #E0EEC6;
+  padding: 10px;
 }
