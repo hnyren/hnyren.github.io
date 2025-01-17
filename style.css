@@ -5,8 +5,8 @@
     font-family: Verdana, Tahoma, sans-serif;
  }
 
- main {
-  background-color: #ffffff;
+.main {
+  background-color: #d4ffc7;
   padding: 20px;
   margin: 20px;
 }
@@ -33,7 +33,7 @@ h1 {
  
  li a {
    text-decoration: none;
-   color: #F0F4EF;
+   color: #d4ffc7;
    padding: 10px;
  }
  
@@ -66,7 +66,7 @@ h1 {
 .projects {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 20px;
 }
 
