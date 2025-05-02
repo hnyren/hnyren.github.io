@@ -1,15 +1,14 @@
  /* Reset the space of the webpage */
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: Verdana, Tahoma, sans-serif;
- }
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Tahoma, sans-serif;
+}
 
 .main {
   padding: 20px;
   flex: 1;
   background-color: #E0EEC6;
-
 }
 
 
@@ -83,6 +82,7 @@ nav {
 
 /* Project page */
 .projects {
+  z-index: 1;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -169,6 +169,6 @@ nav {
 /* Footer */
 .footer {
   background-color: #4E7544;
-  color: #E0EEC6;
+  /* color: #E0EEC6; */
   padding: 10px;
 }
