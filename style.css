@@ -82,7 +82,6 @@ nav {
 
 /* Project page */
 .projects {
-  z-index: 1;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -102,11 +101,17 @@ nav {
   opacity: 0.8;
 }
 
+.project:hover img{
+  z-index: 1;
+}
+
 .project img {
   width: 100%;
   height: 300px;
   object-fit: cover;
   margin-bottom: 10px;
+  position: relative;
+  z-index: 1;
 }
 
 .project p {
@@ -169,6 +174,8 @@ nav {
 /* Footer */
 .footer {
   background-color: #4E7544;
-  /* color: #E0EEC6; */
+  color: #E0EEC6;
   padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
 }
